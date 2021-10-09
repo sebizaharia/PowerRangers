@@ -1,0 +1,100 @@
+import turtle
+t = turtle. Turtle()
+
+t.pu()
+t.setpos(0,0)
+t.pd()
+t.pu()
+t.setpos(-755,-387)
+t.pd()
+t.speed(0)
+t.width(10)
+
+t.begin_fill()
+t.fillcolor("#57a2c2") #albastru
+for i in range(2):
+    t.fd(500)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+t.end_fill()
+
+t.pencolor("black")
+t.pu()
+t.setpos(-755,-387)
+t.pd()
+t.begin_fill()
+t.fillcolor("#347053") #verde inchis
+for i in range(2):
+    t.fd(500)
+    t.left(90)
+    t.fd(150)
+    t.left(90)
+t.end_fill()
+
+#nori
+t.pu()
+t.goto(-660, 230)
+t.pd()
+for i in range(2):
+    t.width("5")
+    t.pencolor("white")
+    t.fillcolor("white")
+    t.begin_fill()
+    for i in range(3):
+        t.circle(50)
+        t.pu()
+        t.forward(40)
+        t.pd()
+    t.pu()
+    t.forward(120)
+    t.pd()
+    t.end_fill()
+
+#imagine 3
+t.width(10)
+t.pencolor("black")
+t.pu()
+t.setpos(250,-387)
+t.pd()
+t.begin_fill()
+t.fillcolor("#9216b8") #mov
+for i in range (2):
+    t.fd(500)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+t.end_fill()
+
+t.pu()
+t.setpos(270,-200)
+t.width(5)
+t.begin_fill()
+t.fillcolor("#b36020") #maro
+for i in range(2):
+    t.forward(350)
+    t.left(60)
+    t.forward(150)
+    t.left(120)
+t.end_fill()
+
+t.width(10)
+t.pu()
+t.setpos(-255, -387)
+t.pd()
+for i in range(2):
+    t.fd(505)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+
+turtle.mainloop()
+
+
+
+
+
+
+
+
+
