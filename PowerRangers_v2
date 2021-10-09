@@ -1,0 +1,224 @@
+import turtle
+import math
+t = turtle. Turtle()
+
+
+t.pu()
+t.setpos(0,0)
+t.pd()
+t.pu()
+t.setpos(-755,-387)
+t.pd()
+t.speed(0)
+t.width(10)
+
+#prima imagine
+t.begin_fill()
+t.fillcolor("#6fdaf2") #albastru
+for i in range(2):
+    t.fd(500)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+t.end_fill()
+
+
+
+t.pencolor("black")
+t.pu()
+t.setpos(-755,-387)
+t.pd()
+t.begin_fill()
+t.fillcolor("#347053") #verde inchis
+for i in range(2):
+    t.fd(500)
+    t.left(90)
+    t.fd(150)
+    t.left(90)
+t.end_fill()
+
+
+
+
+#nori
+t.pu()
+t.goto(-660, 230)
+t.pd()
+for i in range(2):
+    t.width(5)
+    t.pencolor("white")
+    t.fillcolor("white")
+    t.begin_fill()
+    for i in range(3):
+        t.circle(50)
+        t.pu()
+        t.forward(40)
+        t.pd()
+    t.pu()
+    t.forward(120)
+    t.pd()
+    t.end_fill()
+
+#imagine 3
+t.width(10)
+t.pencolor("black")
+t.pu()
+t.setpos(250,-387)
+t.pd()
+t.begin_fill()
+t.fillcolor("#6ff2da") #turcoaz
+
+for i in range (2):
+    t.fd(500)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+t.end_fill()
+
+t.pu()
+t.setpos(270,-200)
+t.width(5)
+t.begin_fill()
+t.fillcolor("#b36020") #maro
+for i in range(2):
+    t.forward(350)
+    t.left(60)
+    t.forward(150)
+    t.left(120)
+t.end_fill()
+
+#laptop
+t.pu()
+t.setpos(330,-190)
+t.width(5)
+t.begin_fill()
+t.fillcolor("#cfcfcf") #gri
+for i in range(2):
+    t.forward(250)
+    t.left(60)
+    t.forward(100)
+    t.left(120)
+t.end_fill()
+
+t.pu()
+t.setpos(340,-180)
+t.width(5)
+t.begin_fill()
+t.fillcolor("#8a8a8a") #gri inchis
+for i in range(2):
+    t.forward(230)
+    t.left(60)
+    t.forward(80)
+    t.left(120)
+t.end_fill()
+t.setpos(330,-190)
+
+
+#om
+t.circle(40)
+t.pu()
+t.setpos(330,-230)
+t.pd()
+t.begin_fill()
+t.pencolor("black") #culoare om
+t.fillcolor("#f0b486")
+t.circle(60)
+t.pu()
+t.backward(20)
+t.pd()
+t.end_fill()
+t.begin_fill()
+t.fillcolor("#DA6FF2")
+for i in range(4):
+    t.fd(40)
+    t.right(90)
+t.end_fill()
+t.setpos(325,-250)
+t.setpos(345,-255)
+t.pu()
+t.setpos(335,-270)
+t.pd()
+t.right(90)
+t.forward(30)
+t.right(90)
+t.pu()
+t.forward(10)
+t.pd()
+t.right(90)
+t.fd(30)
+
+
+
+
+#imagine mijloc
+t.pencolor("black")
+t.left(270)
+t.width(10)
+t.pu()
+t.setpos(-255, -387)
+t.pd()
+t.begin_fill()
+t.fillcolor("#f2da6f")
+for i in range(2):
+    t.fd(505)
+    t.left(90)
+    t.fd(770)
+    t.left(90)
+t.end_fill()
+
+t.width(5)
+t.pu()
+t.setpos(330,-190)
+
+t.fd(250)
+t.left(60)
+t.fd(100)
+t.pd()
+t.pencolor("#595959")
+t.begin_fill()
+t.fillcolor("#a6a6a6")
+t.left(30)
+t.fd(100)
+t.left(90)
+t.fd(250)
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(250)
+t.end_fill()
+
+#copac
+t.pu()
+t.setpos(0,0)
+t.pd()
+t.pu()
+t.setpos(-655,-300)
+t.pd()
+t.begin_fill()
+t.fillcolor("#61290c")
+for i in range(2):
+    t.fd(20)
+    t.left(90)
+    t.fd(50)
+    t.left(90)
+t.pu()
+t.fd(10)
+t.pd()
+t.end_fill()
+t.pencolor("")
+t.pu()
+t.left(90)
+t.fd(50)
+t.pd()
+t.begin_fill()
+t.fillcolor("#b4fc9a")
+
+t.right(90)
+t.circle(70)
+t.end_fill()
+
+
+
+turtle.mainloop()
+
+
